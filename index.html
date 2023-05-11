@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body><!--ONLOAD significa que toda vez que carregar a página vai chamar esta função-->
+    <div id="corpo" class="container">
+
+        <header class="titulo">
+            <h1>Juros Simples</h1>
+        </header>
+
+        <div class="card">
+
+            <div id="texto" class="text">
+                <div class="input">
+                    <label for="">Capital</label>
+                    <input type="number" name="ano" id="cap">
+                </div>
+                <div class="input">
+                    <label for="">Tempo</label>
+                    <input type="number" name="ano" id="tem">
+                </div>
+                <div class="input">
+                    <label for="">Taxa de Juros</label>
+                    <input type="number" name="ano" id="tax">
+                </div>
+
+                <p>
+                    <button type="button" onclick="calcular()">Calcular</button>
+                </p>
+                
+            </div>
+
+            <div id="res">
+                
+            </div>
+         
+        </div>
+
+        <footer class="rodape">
+            <p>&copy; Todos os direitos servados</p>
+        </footer>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
